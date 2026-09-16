@@ -72,7 +72,7 @@ Todos los nombres, correos, teléfonos, identificadores, naves, empresas y valor
 - `src/pages/`: pantallas de tablero, maestros, contratos, Pedidos / FCL, documentos, cobranza y configuración.
 - `src/components/ui.tsx`: componentes reutilizables de interfaz, diálogos, badges, estados vacíos y notificaciones.
 - `src/index.css`: tokens visuales, estilos globales y comportamiento responsive.
-- `.github/workflows/deploy-pages.yml`: compilación y despliegue de la carpeta `dist/`.
+- `.github/workflows/deploy.yml`: compilación y despliegue exclusivo de la carpeta `dist/`.
 
 La app también registra, si el navegador implementa WebMCP, dos herramientas locales y acotadas: abrir una ficha por código y completar un hito demostrativo. No son integraciones externas.
 
